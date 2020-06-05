@@ -1,4 +1,17 @@
-body {
+/* reglas:
+    selectores
+    declaraciones
+    propiedades 
+    valores
+*/
+/* selector de etiqueta, hace refetencia al tag de html ej: section, article, etc */
+body {/* selector de etiqueta, hace refetencia al tag de html ej: section, article, etc */
     background-color: #000000;
     color: white;
 }
+/* selector descentente (hijitos */
+/*  body header div figure nav ol li a {
+
+}*/
+/* selector de ID o clase  esta es la mpas comoda*/
+/* selector de clase */
