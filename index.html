@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Víctor Rolack</title>
         <link rel="icon" type="image/png" href="./Assets/Rolack.png">
+        <link rel="stylesheet" href="./Styles/estilos.css">
     </head>
     <body>
         <header>
@@ -15,17 +16,17 @@
             <nav>
                 <ol>
                     <li>
-                        <a href="#">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                         </li>
                     </ol>
                     <ol>
                         <li>
-                            <a href="#">Más sobre mis experiencias</a>
+                            <a class="link" href="#eventos">Más sobre mis experiencias</a>
                         </li>
                     </ol>
                     <ol>
                         <li>
-                            <a href="#">Trabajemos juntos</a>
+                            <a class="link" href="#contacto">Trabajemos juntos</a>
                         </li>
                     </ol>
             </nav>
@@ -34,7 +35,7 @@
             <h1> Hola! Soy <strong>Víctor Rolack</strong> <br/> Programador <strong>Frontend</strong> <br/> y <strong>fotógrafo</strong> profesional</h1>
             <img src= "./Assets/hero.jpg" width="500px" alt="Imagen principal del sitio"> 
         </section>     
-        <section> portafolio
+        <section id="portafolio"> 
             <article>
                 <h2>Portafolio (Proyectos Destacados)</h2>
                 <article>
@@ -48,7 +49,7 @@
                 </article>
             </article>
         </section>
-        <section>
+        <section  id="eventos">
             <article>
                 <h2>Más sobre mi experiencia</h2>
                 <article>
@@ -57,11 +58,11 @@
                     </figure>
                     <h3>Concierto Chile Gospel</h3>
                     <p>Concierto de Gospel en Santiago Chile</p>
-                    <a>Ver material</a>
+                    <a href="https://www.facebook.com/onelightpv/media_set/?set=a.755706517947591" target="_blank">Ver material</a>
                 </article>
             </article>
         </section>
-        <section>
+        <section id="contacto">
             <form action="/suscripcion/">
                 <h3>¿Creamos algo juntos?</h3>
                 <input type="text" placeholder="Deja tu correo" id="email">
