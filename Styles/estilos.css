@@ -38,8 +38,28 @@ h1 {
     letter-spacing: -.2px;
 }
 
+.header {
+    background-color: #1d252c;
+    color: white;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 strong {
+    color: #81b71a
+}
+
 .hero {
     height: 300px;
+    color: white;
+    background-image: url('../Assets/hero.jpg');
+    background-color: #1b2127;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 .project-details{
