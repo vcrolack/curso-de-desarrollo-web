@@ -5,13 +5,35 @@
     valores
 */
 /* selector de etiqueta, hace refetencia al tag de html ej: section, article, etc */
-body {/* selector de etiqueta, hace refetencia al tag de html ej: section, article, etc */
+/* selector de etiqueta, hace refetencia al tag de html ej: section, article, etc */
+/*body {
     background-color: #000000;
     color: white;
-}
+    font-family: Arial;
+} */
 /* selector descentente (hijitos */
 /*  body header div figure nav ol li a {
 
 }*/
 /* selector de ID o clase  esta es la mpas comoda*/
 /* selector de clase */
+/* ------------------------------------------------------------------- */
+
+body {
+    font-family: 'Source Sans pro', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+}
