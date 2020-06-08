@@ -38,21 +38,69 @@ h1 {
     font-size: 40px;
     line-height: 1.5;
     letter-spacing: -.2px;
+    margin: 0px;
+}
+
+ol, /* Estilo para las listas */
+ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     font-weight: bold;
+
+}
+
+figure {
+    margin: 0;
 }
 
 .header {
-    background-color: #1d252c;
+    background-color: #1b2127;
     color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu {
+    height: inherit;
+}
+
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
 }
 
 .header a {
     color: white;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 h1 strong {
-    color: #81b71a
+    color: #81b71a;
 }
+
+h2 {
+    color: #81b71a;
+    text-transform: uppercase;
+    font-family: 'Source Sans pro';
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
 
 .hero {
     height: 300px;
@@ -62,19 +110,50 @@ h1 strong {
     background-size: 350px 300px;
     background-repeat: no-repeat;
     background-position-x: right;
+    display: flex;
+    align-items: center;
 }
 
 .portfolio {
     background-color: #fafafa;
+    padding: 20px;
 }
 
 .project {
     background-color: white;
     border: 1px solid gray;
     border-radius: 10px;
-    margin: 10px;
     margin-bottom: 15px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-matri {
+    margin: 10px 0;
+}
+
+.project-date {
+    margin: 10px 0;
+}
+
+.project-url {
+    margin: 10px 0px;
+}
+
+.project-description {
+    font-size: 20px;
+    
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+.project-title {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 .project-details {
@@ -83,4 +162,20 @@ h1 strong {
 }
 .project-imageContainer {
     width: 500px;
+}
+
+.footer {
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
 }
