@@ -196,6 +196,7 @@ h2 {
 .event-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .event-list-title {
@@ -247,8 +248,6 @@ h2 {
     justify-content: space-between;
 }
 
-.social {
-}
 
 .social-link {
     display: inline-block;
