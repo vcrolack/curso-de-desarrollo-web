@@ -9,40 +9,45 @@
     </head>
     <body>
         <header class="header">
-            <figure class="logo">
-                <img src="./Assets/Rolack_Developer.png"alt="LOGO de hhtt://rolack.com" height="65px"> 
-            </figure>
-            <nav class="menu">
-                <ol>
-                    <li>
-                        <a class="link" href="#portafolio">Portafolio</a>
-                    </li>
-                    <li>
-                         <a class="link" href="#eventos">Experiencia</a>
-                    </li>
-                     <li>
-                        <a class="link" href="#contacto">Trabajemos juntos</a>
-                    </li>
-                    </ol>
+            <div class="container">
+                <figure class="logo">
+                    <img src="./Assets/Rolack_Developer.png"alt="LOGO de hhtt://rolack.com" height="100px"> 
+                </figure>
+                <nav class="menu">
+                    <ol>
+                        <li>
+                            <a class="link" href="#portafolio">Portafolio</a>
+                        </li>
+                        <li>
+                             <a class="link" href="#eventos">Experiencia</a>
+                        </li>
+                         <li>
+                            <a class="link" href="#contacto">Trabajemos juntos</a>
+                        </li>
+                        </ol>
                 </nav>
+            </div>
         </header>
         <section class="hero">
-            <h1> 
-                Hola! Soy <strong>Víctor Rolack</strong> <br/> Programador <strong>Frontend</strong> <br/> y <strong>fotógrafo</strong> profesional
-            </h1>
-            <!--  <img src= "./Assets/hero.jpg" width="500px" alt="Imagen principal del sitio"> -->
+            <div class="container">
+                <h1> 
+                    Hola! Soy <strong>Víctor Rolack</strong> <br/> Programador <strong>Frontend</strong> <br/> y <strong>fotógrafo</strong> profesional
+                </h1>
+                <img class="hero-image" src= "./Assets/hero.jpg" width="500px" alt="Imagen principal del sitio">
+            </div>
         </section>     
         <section id="portafolio" class="portfolio"> 
-            <article>
+            <div class="container">
                 <h2>Portafolio (Proyectos Destacados)</h2>
                 <article class="project">
                     <div class="project-details">
-                        <h3 class="project-title">Matrimonio</h3>
+                        <h3 class="project-title">Matrimonio en la playa</h3>
                         <h6 class="project-matri">Ubicacion</h6>
                         <p class="project-date"><small><strong>Fecha:</strong> 01/02/2016</small></p>
-                        <p class="project-url"><small><strong>Puedes verlo en:</strong> facebook.com</small></p>
-                        <p class="project-description">Este trabajo fue de mis preferidos debido a la temática
-                            que los novios decidieron usar para el día más importante de sus vidas.</p>
+                        <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://www.facebook.com/onelightpv/media_set/?set=a.1036273096557597" target="blank">Nuestro fanpage de FB</small></a></p>
+                        <p class="project-description">Fue un matrimonio muy confidencial, solo con la gente precisa; padres, hermanos, amigos, ningún desconocido. 
+                            Fue un día soleado, con una brisa agradable, en un restaurante a la orilla del imponente oceáno pacífico.
+                        </p>
                     </div>
                     <figure class="project-imageContainer">
                         <img class="project-image" src="./Assets/matri.jpg" width="500px"/>
@@ -50,47 +55,93 @@
                 </article>
                 <article class="project">
                     <div class="project-details">
-                        <h3 class="project-title">Matrimonio</h3>
+                        <h3 class="project-title">Matrimonio de Pipe y Vale</h3>
                         <h6 class="project-matri">Ubicacion</h6>
-                        <p class="project-date"><small><strong>Fecha:</strong> 01/02/2016</small></p>
-                        <p class="project-url"><small><strong>Puedes verlo en:</strong> facebook.com</small></p>
+                        <p class="project-date"><small><strong>Fecha:</strong> 23/8/2019</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en: </strong><a href="https://www.facebook.com/onelightpv/media_set/?set=a.1157158467802392" target="blank">Nuestro fanpage de FB</a></small></p>
                         <p class="project-description">Este trabajo fue de mis preferidos debido a la temática
                             que los novios decidieron usar para el día más importante de sus vidas.</p>
                     </div>
                     <figure class="project-imageContainer">
-                        <img class="project-image" src="./Assets/matri.jpg" width="500px"/>
+                        <img class="project-image" src="./Assets/matri-vale.jpg" width="500px"/>
                     </figure>                
                 </article>
-            </article>
+            </div>
         </section>
-        <section  id="eventos">
-            <article>
-                <h2>Más sobre mi experiencia</h2>
+        <div class="container">
+            <h2 class="event-list-title">Más sobre mi experiencia</h2>
+        </div>
+        <section  id="eventos" class="event-list">
+            <div class="container">
                 <article class="event">
                     <figure class="event-imageContainer">
                         <img class="event-image" src="./Assets/gospel.jpg" width="500px"/>
                     </figure>
-                    <h3 class="event-title">Concierto Chile Gospel</h3>
-                    <p class="event-description">Concierto de Gospel en Santiago Chile</p>
-                    <a class="event-url" href="https://www.facebook.com/onelightpv/media_set/?set=a.755706517947591" target="_blank">Ver material</a>
+                    <div class="event-detail">
+                        <h3 class="event-title">Concierto Chile Gospel</h3>
+                        <p class="event-description">El concierto de Gospel más grande de Chile y de latinoamérica unida.</p>
+                        <a class="event-url" href="https://www.facebook.com/onelightpv/media_set/?set=a.755706517947591" target="blank">Ver material</a>
+                    </div>
                 </article>
-            </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="./Assets/matri-pipe.jpg" width="500px"/>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Matrimonio Camila y Felipe</h3>
+                        <p class="event-description">Participé fotografiando el matrimonio de dos grandes amigos.</p>
+                        <a class="event-url" href="https://www.facebook.com/onelightpv/media_set/?set=a.1157158467802392" target="_blank">Ver material</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="./Assets/matri-garret.jpg" width="500px"/>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Matrimonio de Garret y Nicole</h3>
+                        <p class="event-description">La unión de dos personas con distinta nacionalidad. Fue una gran experiencia para recordar que el amor puede ser
+                            hallado más allá de los límites geográficos.
+                        </p>
+                        <a class="event-url" href="https://www.facebook.com/onelightpv/media_set/?set=a.846561695528739" target="_blank">Ver material</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <img class="event-image" src="./Assets/matri-jeza-mari.jpg" width="500px"/>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">Matrimonio de Jezahías y Marina</h3>
+                        <p class="event-description">Matrimonio de dos personas muy amables que se aman mucho.</p>
+                        <a class="event-url" href="https://www.facebook.com/onelightpv/media_set/?set=a.782440678607508" target="_blank">Ver material</a>
+                    </div>
+                </article>
+            </div>
         </section>
         <section id="contacto" class="contact">
-            <form class="form-email" action="/suscripcion/">
-                <h3>¿Creamos algo juntos?</h3>
-                <input type="text" placeholder="Deja tu correo" id="email">
-                <button>Enviar</button>
-            </form>
+            <div class="container">
+                <form class="form-email" action="/suscripcion/">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="Deja tu correo" id="email">
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://twitter.com/Vctor90067302" class="social-link twitter" target="blank"></a>
+                    <a href="https://www.facebook.com/onelightpv" class="social-link facebook" target="blank"></a>
+                    <a href="https://github.com/vcrolack" class="social-link github" target="blank"></a>
+                    <a href="https://www.instagram.com/rolack.ph/?hl=es-la" class="social-link instagram" target="blank"></a>
+                </div>
+            </div>
         </section>
         <footer class="footer">
-            <div>
-                <p>Curso de desarrollo web online 2020 <img src="./Assets/Rolack_Developer.png" alt="" width="80px"></p>
-            </div>
-            <div>
-                <p>
-                    Designed by<a href="https://www.instagram.com/rolack.ph/?hl=es-la" target="blank"> Víctor Rolack</a>
-                </p>
+            <div class="container">
+                <div>
+                    <p>Curso de desarrollo web online 2020 <img src="./Assets/Rolack_Developer.png" alt="" width="80px"></p>
+                </div>
+                <div>
+                    <p>
+                        Designed by<a href="https://www.instagram.com/rolack.ph/?hl=es-la" target="blank"> Víctor Rolack</a>
+                    </p>
+                </div>
             </div>
         </footer>
     </body>

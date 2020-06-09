@@ -105,13 +105,20 @@ h2 {
 .hero {
     height: 300px;
     color: white;
-    background-image: url('../Assets/hero.jpg');
+/*     background-image: url('../Assets/hero.jpg'); */
     background-color: #1b2127;
-    background-size: 350px 300px;
-    background-repeat: no-repeat;
+/*     background-size: 350px 300px;*/
+/*     background-repeat: no-repeat;*/
     background-position-x: right;
     display: flex;
     align-items: center;
+    justify-content:space-between ;
+}
+
+.hero-image {
+    object-fit: cover;
+    height: 300px;
+    width: 550px;
 }
 
 .portfolio {
@@ -142,6 +149,11 @@ h2 {
     margin: 10px 0px;
 }
 
+.project-url a {
+    text-decoration: none;
+    color: black;
+}
+
 .project-description {
     font-size: 20px;
     
@@ -160,6 +172,7 @@ h2 {
     width: 500px;
     height: 200px;
 }
+
 .project-imageContainer {
     width: 500px;
 }
@@ -179,3 +192,119 @@ h2 {
 .footer a {
     color: white;
 }
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-list-title {
+    margin-left: 20px;
+}
+.event {
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f1f8e9;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event-url {
+    color: #81b71a;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.contact {
+    background-color: #81b71a;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0px 15px;
+}
+.social-link.twitter {
+    background-image: url(../Assets/twitter.svg);
+}
+.social-link.facebook {
+    background-image: url(../Assets/facebook.svg);
+}
+.social-link.github {
+    background-image: url(../Assets/github.svg);
+}
+.social-link.instagram {
+    background-image: url(../Assets/instagram.svg);
+}
+
+.form-email input {
+    border-color:grey;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url(../Assets/correo.svg);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display:block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans pro', sans-serif;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+
+}
+ 
